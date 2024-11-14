@@ -9,7 +9,7 @@ const saveTodo = (e) => {
   e.preventDefault();
   let li = document.createElement("li");
   li.innerText = input.value;
-  li.className = "list-group-item rounded-0";
+  li.className = "list-group-item rounded-0 float-start";
   let btn = document.createElement("button");
   btn.innerText = "Delete";
   btn.className = "btn btn-sm btn-danger rounded-0 float-end";
